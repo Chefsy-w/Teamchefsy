@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-router'
+import { Link, NavLink } from 'react-router'
 
 const Navbar = () => {
   return (
@@ -32,6 +32,10 @@ const Navbar = () => {
          <input type="checkbox" id="menu-toggle" className="hidden peer" />
 
       <ul className="flex-col gap-3 mt-4 hidden peer-checked:flex md:flex md:flex-row md:gap-6 md:mt-0 font-semibold">
+        {/* <Link to='/' >
+        hi
+        
+        </Link> */}
         <NavLink to="home"><li>Home</li></NavLink>
         <NavLink to="chefs"><li>Chefs</li></NavLink>
         <NavLink to="register"><li>Register</li></NavLink>

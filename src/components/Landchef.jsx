@@ -64,7 +64,7 @@ const Landchef = () => {
       </div>
 
     
-      <Link to="/register" className='flex justify-center'>
+      <Link to="/chefs" className='flex justify-center'>
                     <button className="animate-bounce border-5 mt-8 hover:bg-gray-400 font-bold py-3 px-6 rounded-full text-sm sm:text-base md:text-lg">
                     View More
                     </button>
