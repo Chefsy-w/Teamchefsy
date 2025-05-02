@@ -90,9 +90,9 @@ import user2 from '../../assets/images/user2.jpg'
 
 export default function ChefProfile() {
   return (
-    <div className="bg-gray-50 min-h-screen p-4 md:p-8">
+    <div className="bg-gray-200 min-h-screen p-4 md:p-8">
       <div className="max-w-5xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden">
-        <div className="bg-indigo-700 p-6 md:p-8">
+        <div className="bg-black p-6 md:p-8">
           <p className="ml-25 text-2xl text-orange-400 font-semibold italic">
             chef <span className="text-blue-300 italic">sy</span>
           </p>
@@ -131,7 +131,7 @@ export default function ChefProfile() {
                       <p className="text-lg text-gray-800">Corporate Brunch - May 20, 2025</p>
                       <p className="text-sm text-gray-600">Client: Sarah Johnson | Guests: 20</p>
                       <div className="flex gap-3 mt-3">
-                        <button className="px-4 py-2 bg-green-500 text-white rounded-lg font-bold">Approve</button>
+                        <button className="px-4 py-2 bg-gray-500 text-white rounded-lg font-bold">Approve</button>
                         <button className="px-4 py-2 bg-red-500 text-white rounded-lg font-bold">Reject</button>
                       </div>
                     </div>

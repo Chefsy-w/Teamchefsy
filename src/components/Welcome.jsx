@@ -1,5 +1,6 @@
 import React from 'react'
 import chf5 from '../assets/images/chf5.jpg'
+import { Link } from 'react-router'
 
 const Welcome = () => {
   return (
@@ -14,9 +15,11 @@ const Welcome = () => {
         <p className="mt-6 text-sm md:text-base lg:text-lg">
             Discover Amazing Opportunities for Chefs and Clients
         </p>
+        <Link to="/register">
   <button className="mt-6 font-bold border-4 rounded-full px-6 py-3 animate-bounce">
     Get Started
   </button>
+  </Link>
 
 
   <div className=" bg-white px-4 py-8 md:px-10 lg:px-20">
